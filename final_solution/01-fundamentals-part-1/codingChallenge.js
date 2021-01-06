@@ -14,7 +14,16 @@ TEST DATA 2: Marks weights 95 kg and is 1.88 m tall. John weights 85 kg and is 1
 GOOD LUCK 😀
 */
 
-var M_Weight = [78, 1.69];
+const massMark = 78;
+const heightMark = 1.69;
+const massJohn = 92;
+const heightJohn = 195;
+
+
+/**
+ * 
+ * what i did wrong 
+ *  var M_Weight = [78, 1.69];
 var M_Weight2 = [95, 1.88];
 
 var John_1 = [ 92, 1.96];
@@ -25,3 +34,6 @@ console.log(Mark);
 
 const Jhon = (John_1 / John_2) ** 2;
 console.log(Jhon);
+ * 
+ * 
+ */

@@ -1,8 +1,9 @@
 // /////// OPERATORS ///// /////
 
 // calculate age
-
-// /// using the minus operator (-)
+//////// //////////////////////
+// /// Math operators (-, +)
+////// ////////////////////////
 const now = 2037;
 const ageJonas = now - 1991;
 const ageSarah = now - 2018;
@@ -11,15 +12,30 @@ console.log(ageJonas , ageSarah);
 console.log(ageJonas * 2, ageJonas / 10, 2 ** 3);
 // 2 ** 3 means 2 to the power of 3 = 2 * 2 *2
 
-// /// plus operator (+)
+// /// plus operator (+) ///////
+
 const firstName = "jonas";
 const lastName = "Schmedtman"
 console.log(firstName + ' ' + lastName); /// will display the name and last name in one string
 
-
+//  /// //////////////////// //////
 // //// assignment operators //////
-let x = 10 + 5;
+//  /// //////////////////// //////
+
+let x = 10 + 5; // 15
+x += 10; //x = x + 10 = 25
+x *= 4 // x = x * 4 = 100
+x ++; // x = x + 1
+x --; //
+x --;
+// /// basically re assigning the x value ^^ 
+
 console.log(x);
+
+//  /// //////////////////// //////
+// /// Comparison Operator //////////
+//  /// //////////////////// //////
+
 //  /////// /////////////// ///////////////////////////
 //   /////// 3 different ways to declare variables/////
 //  /////// const - let - var /////////

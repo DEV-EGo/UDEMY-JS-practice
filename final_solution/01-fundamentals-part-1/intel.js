@@ -1,30 +1,41 @@
+// /////// OPERATORS ///// /////
+
+// calculate age
+
+// /// using the minus operator (-)
+const ageJonas = 2037 - 1991;
+const ageSarah = 2037 - 2018;
+console.log(ageJonas , ageSarah);
+
+
+
 //  /////// /////////////// ///////////////////////////
 //   /////// 3 different ways to declare variables/////
 //  /////// const - let - var /////////
 //  /////// /////////////// ///////////////////////////
 
-let age = 28;
+// let age = 28;
 
 //mutating the age variable to new age
 
-age = 31;
+// age = 31;
 
 //  //// when mutating variables the best practice is to use "let"
 
 // CONST declares variables that are not suppose to change in the future
 // THEY ARE NOT SUPPOSE TO  CHANGE
 
-const YearOfbirth = 1993;
+// const YearOfbirth = 1993;
 // YearOfbirth = 2001;
 
 // imutable variable aka can not be changed
 
 // 
-var job = 'programer';
-job = 'teacher';
+// var job = 'programer';
+// job = 'teacher';
 
-lastName = "pinky";
-console.log(lastName);
+// lastName = "pinky";
+// console.log(lastName);
 
 
 

@@ -3,12 +3,23 @@
 // calculate age
 
 // /// using the minus operator (-)
-const ageJonas = 2037 - 1991;
-const ageSarah = 2037 - 2018;
+const now = 2037;
+const ageJonas = now - 1991;
+const ageSarah = now - 2018;
 console.log(ageJonas , ageSarah);
 
+console.log(ageJonas * 2, ageJonas / 10, 2 ** 3);
+// 2 ** 3 means 2 to the power of 3 = 2 * 2 *2
+
+// /// plus operator (+)
+const firstName = "jonas";
+const lastName = "Schmedtman"
+console.log(firstName + ' ' + lastName); /// will display the name and last name in one string
 
 
+// //// assignment operators //////
+let x = 10 + 5;
+console.log(x);
 //  /////// /////////////// ///////////////////////////
 //   /////// 3 different ways to declare variables/////
 //  /////// const - let - var /////////

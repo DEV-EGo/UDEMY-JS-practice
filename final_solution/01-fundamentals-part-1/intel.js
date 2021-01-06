@@ -35,6 +35,18 @@ console.log(x);
 //  /// //////////////////// //////
 // /// Comparison Operator //////////
 //  /// //////////////////// //////
+//  > , < , >= , ==
+
+console.log(ageJonas > ageSarah); // asking the operator who's older true or false
+console.log(ageSarah >= 18); // true she is older than 18
+
+const isFullAge = ageSarah >= 18;
+console.log (now - 1991 > now - 2018);
+
+
+
+
+
 
 //  /////// /////////////// ///////////////////////////
 //   /////// 3 different ways to declare variables/////

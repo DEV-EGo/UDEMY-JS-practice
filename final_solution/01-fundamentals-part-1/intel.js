@@ -1,3 +1,17 @@
+/// operator precedence ////
+////////////////////////////
+
+// console.log(25-10-5);
+
+let x , y;
+x = y = 25 - 10 - 5;
+console.log(x,y);
+
+
+
+/**
+ * 
+ 
 // /////// OPERATORS ///// /////
 
 // calculate age
@@ -45,8 +59,8 @@ console.log (now - 1991 > now - 2018);
 
 
 
-
-
+ * 
+ */
 
 //  /////// /////////////// ///////////////////////////
 //   /////// 3 different ways to declare variables/////

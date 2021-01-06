@@ -34,3 +34,9 @@ console.log("======================");
 
 let job1 = "Mechanic";
 let job2 = "Student";
+
+console.log("======================");
+
+let Country = ;
+let Continent = ;
+let Population = ;

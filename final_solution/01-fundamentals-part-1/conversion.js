@@ -9,3 +9,9 @@ const YearInput = `1991`;
 
 console.log(Number(YearInput), YearInput);
 console.log(Number(YearInput)+ 18);
+
+
+console.log(Number(`Jonas`));
+console.log(typeof NaN);
+
+console.log(String(23), 23);

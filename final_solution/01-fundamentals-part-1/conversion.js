@@ -6,6 +6,6 @@ const YearInput = `1991`;
 
 // *** using the built in Number function to convert strings to numbers
 // *** inside the console log numbers are pink and strings are in white
-console.log(Number(YearInput));
-console.log(YearInput + 18);
 
+console.log(Number(YearInput), YearInput);
+console.log(Number(YearInput)+ 18);
